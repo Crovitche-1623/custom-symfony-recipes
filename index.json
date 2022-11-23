@@ -9,6 +9,6 @@
   "_links": {
     "repository": "https://github.com/Crovitche-1623/custom-symfony-recipes",
     "origin_template": "{package}:{version}@github.com/Crovitche-1623/custom-symfony-recipes:main",
-    "recipe_template": "https://raw.githubusercontent.com/Crovitche-1623/custom-symfony-recipes/contents/{package_dotted}.{version}.json"
+    "recipe_template": "https://raw.githubusercontent.com/Crovitche-1623/custom-symfony-recipes/main/contents/{package_dotted}.{version}.json"
   }
 }
