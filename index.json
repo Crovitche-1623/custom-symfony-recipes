@@ -8,7 +8,7 @@
   "is_contrib": true,
   "_links": {
     "repository": "https://github.com/Crovitche-1623/custom-symfony-recipes",
-    "origin_template": "{package}:{version}@github.com/Crovitche-1623/custom-symfony-recipes:master",
+    "origin_template": "{package}:{version}@github.com/Crovitche-1623/custom-symfony-recipes:main",
     "recipe_template": "https://raw.githubusercontent.com/Crovitche-1623/custom-symfony-recipes/contents/{package_dotted}.{version}.json"
   }
 }
