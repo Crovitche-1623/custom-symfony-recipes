@@ -1,0 +1,30 @@
+{
+  "manifests": {
+    "acme/private-bundle": {
+      "manifest": {
+        "env": {
+          "#1": "MEILISEARCH_URL=http://localhost:7071"
+        },
+        "bundles": {
+          "Crovitche\\SwissGeoBundle\\CrovitcheSwissGeoBundle": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        }
+      },
+      "files": {
+        "config/packages/crovitche_swiss_geo.yaml": {
+          "contents": [
+            "crovitche_swiss_geo:",
+            "  import: ~",
+            "  meilisearch_url: '%env(resolve:MEILISEARCH_URL)%'"
+          ],
+          "executable": false
+        }
+      },
+      "ref": "8405f3af1312d1f9121afed4dddef636c6c7ff00"
+    }
+  }
+}
