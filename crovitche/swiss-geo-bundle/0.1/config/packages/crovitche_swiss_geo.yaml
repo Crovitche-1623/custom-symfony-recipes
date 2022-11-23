@@ -1,0 +1,3 @@
+crovitche_swiss_geo:
+  import: ~
+  meilisearch_url: '%env(resolve:MEILISEARCH_URL)'

@@ -1,0 +1,11 @@
+{
+  "bundles": {
+    "Crovitche\\SwissGeoBundle\\CrovitcheSwissGeoBundle": ["all"]
+  },
+  "copy-from-recipe": {
+    "config/": "%CONFIG_DIR%/"
+  },
+  "env": {
+    "MEILISEARCH_URL": "http://localhost:7071"
+  }
+}
