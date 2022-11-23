@@ -1,6 +1,6 @@
 {
   "manifests": {
-    "acme/private-bundle": {
+    "crovitche/swiss-geo-bundle": {
       "manifest": {
         "env": {
           "#1": "MEILISEARCH_URL=http://localhost:7071"
